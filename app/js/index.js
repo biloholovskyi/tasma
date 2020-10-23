@@ -1,4 +1,5 @@
 import {inputForm} from "./input";
+import './countInput';
 
 $(document).ready(() => {
   $('input, textarea').on('input', inputForm);

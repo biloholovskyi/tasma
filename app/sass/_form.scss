@@ -4,6 +4,9 @@
       top: 10px !important;
       color: #4589FF;
     }
+    .textarea_placeholder {
+      top: -5px!important;
+    }
     input {
       border-color: #4589FF!important;
     }
@@ -43,6 +46,41 @@
       line-height: 22px;
       color: #0C1017;
       z-index: 3;
+    }
+    textarea {
+      width: 100%;
+      border: none;
+      background-color: transparent;
+      border-bottom: 1px solid rgba(12, 16, 23, 0.2);
+      height: 70px;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 22px;
+      color: #0C1017;
+      z-index: 3;
+      resize: none;
+    }
+  }
+  .textarea {
+    display: flex;
+    flex-direction: column;
+    .placeholder {
+      top: 12%;
+    }
+    .count {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      margin-top: 10px;
+      .count-item {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 18px;
+        letter-spacing: 0.01em;
+        text-transform: uppercase;
+        color: rgba(12, 16, 23, 0.6);
+      }
     }
   }
   //&--checkbox {
