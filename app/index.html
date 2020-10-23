@@ -42,7 +42,7 @@
   <div class="container">
     <div class="row">
       <div class="col-12">
-        <h3>ООО «НПП «Тасма»</h3>
+        <h3 class="small__title ">ООО «НПП «Тасма»</h3>
         <h1>производитель пленок<br>
           широкого ассортимента<br>
           для больших производств</h1>
@@ -88,7 +88,7 @@
   <div class="container">
     <div class="row">
       <div class="col-6">
-        <h3>Lorem ipsum dolor</h3>
+        <h3 class="small__title ">Lorem ipsum dolor</h3>
         <h2>Nullam aliquet faucibus<br>nibh sodales varius.<br>Vivamus commodo</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam aliquet faucibus nibh sodales varius. Vivamus commodo pulvinar felis sit amet placerat.</p>
       </div>
@@ -106,11 +106,11 @@
             <div class="placeholder">Email</div>
             <input name="email"  type="text" required />
           </div>
-          <div class="main__form--checkbox">
-            <input type="checkbox" name="checkbox" id="mainCheckbox" />
+          <div class="checkbox">
+            <input type="checkbox" class="option-input"  id="mainCheckbox"/>
             <label for="mainCheckbox">Я согласен с  Условиями обработки персональных данных</label>
           </div>
-          <button type="submit" class="main__form--btn">
+          <button type="submit" class="main__btn">
             Отправить
             <div class="arrow__section"><img src="./media/icon/arrow-r.svg" alt="icon"></div>
           </button>
@@ -119,6 +119,91 @@
     </div>
   </div>
 </div>
+<div class="news__section">
+  <div class="container">
+    <div class="row">
+      <div class="col-6">
+        <h3 class="small__title ">Новости</h3>
+        <h2>Будь в курсе последних событий индустрии</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam aliquet faucibus nibh sodales varius. Vivamus commodo pulvinar felis sit amet placerat.</p>
+        <button class="news__button">Читать наш блог</button>
+      </div>
+      <div class="col-6">
+        <div class="news__content">
+          <div class="news__content--item">
+            <img class="news__image" src="./media/image/news1.png" alt="image"/>
+            <div class="date">1 апреля, 2020</div>
+            <div class="news__title">C ДНЕМ ХИМИКА!</div>
+            <div class="news__text">
+              Уважаемые ветераны, сотрудники, коллеги и партнеры "Тасмы" - с праздником Вас! Мира, добра и счастья Вам
+              и вашим семьям!
+            </div>
+          </div>
+          <div class="news__content--item">
+            <img class="news__image" src="./media/image/news2.png" alt="image"/>
+            <div class="date">1 апреля, 2020</div>
+            <div class="news__title">С юбилеем победы, друзья!</div>
+            <div class="news__text">
+              Уважаемые ветераны, сотрудники, коллеги и партнеры "Тасмы" - с праздником Вас! Мира, добра и счастья Вам
+              и вашим семьям!
+            </div>
+          </div>
+          <div class="news__content--item">
+            <img class="news__image" src="./media/image/newsSvg.svg" alt="image"/>
+            <div class="date">1 апреля, 2020</div>
+            <div class="news__title">С юбилеем победы, друзья!</div>
+            <div class="news__text">
+              Уважаемые ветераны, сотрудники, коллеги и партнеры "Тасмы" - с праздником Вас! Мира, добра и счастья Вам
+              и вашим семьям!
+            </div>
+          </div>
+          <div class="news__content--item">
+            <img class="news__image" src="./media/image/newsbg.png" alt="image"/>
+            <div class="date">1 апреля, 2020</div>
+            <div class="news__title">C ДНЕМ ХИМИКА!</div>
+            <div class="news__text">
+              Уважаемые ветераны, сотрудники, коллеги и партнеры "Тасмы" - с праздником Вас! Мира, добра и счастья Вам
+              и вашим семьям!
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<footer class="main__footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-3">
+        <img class="footer__logo" src="./media/icon/footerLogo.svg" alt="logo">
+        <div class="footer__info">© 19ХХ-2020 АО «ТАСМА»</div>
+        <div class="footer__info">Разработка сайта: Acme Inc.</div>
+      </div>
+      <div class="col-3">
+        <ul class="footer__list">
+          <li><a href="#">Продукция</a></li>
+          <li><a href="#">Новости</a></li>
+          <li><a href="#">О компании</a></li>
+          <li><a href="#">Закупки</a></li>
+          <li><a href="#">Документация</a></li>
+        </ul>
+      </div>
+      <div class="col-3">
+        <h3>Контакты</h3>
+        <p class="footer__contacts">8 (843) 560-71-56</p>
+        <p class="footer__contacts">Казань, ул. Восстания, 100, пом. 107</p>
+        <p class="footer__contacts">info@tasma.ru</p>
+      </div>
+      <div class="col-3">
+        <button class="main__btn">Расчитать стоимость
+          <div class="arrow__section"><img src="./media/icon/arrow-r.svg" alt="icon"></div>
+        </button>
+        <a class="footer__links" href="#" target="_blank">Политика конфиденциальности</a>
+        <a class="footer__links" href="#" target="_blank">Обработка персональных данных</a>
+      </div>
+    </div>
+  </div>
+</footer>
 </body>
 
 <script src="https://code.jquery.com/jquery-3.3.1.min.js"

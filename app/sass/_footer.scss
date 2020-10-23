@@ -1,0 +1,64 @@
+.main__footer {
+  width: 100%;
+  padding: 120px 0 75px;
+  background-color: #0C1017;
+  .footer__logo {
+    width: 154px;
+    height: 67px;
+    object-position: center;
+    object-fit: contain;
+    margin-bottom: 55px;
+  }
+  .footer__info {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #55585D;
+    margin-bottom: 15px;
+  }
+  .footer__list {
+    li {
+      list-style-type: none;
+      margin-bottom: 20px;
+      a {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+        text-transform: uppercase;
+        color: #fff;
+      }
+    }
+  }
+  h3 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 20px;
+  }
+  .footer__contacts {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 10px;
+  }
+  button {
+    margin-bottom: 64px;
+  }
+  .footer__links {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #55585D;
+    display: inline-block;
+    margin-bottom: 15px;
+    text-decoration: underline;
+  }
+}

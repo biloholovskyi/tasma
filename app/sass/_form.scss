@@ -45,25 +45,25 @@
       z-index: 3;
     }
   }
-  &--checkbox {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    margin-bottom: 62px;
-    input {
-      width: 24px;
-      height: 24px;
-      margin-right: 16px;
-    }
-    label {
-      font-style: normal;
-      font-weight: normal;
-      font-size: 16px;
-      line-height: 22px;
-      color: #0C1017;
-    }
-  }
-  &--btn {
+  //&--checkbox {
+  //  display: flex;
+  //  align-items: center;
+  //  justify-content: flex-start;
+  //  margin-bottom: 62px;
+  //  input {
+  //    width: 24px;
+  //    height: 24px;
+  //    margin-right: 16px;
+  //  }
+  //  label {
+  //    font-style: normal;
+  //    font-weight: normal;
+  //    font-size: 16px;
+  //    line-height: 22px;
+  //    color: #0C1017;
+  //  }
+  //}
+  .main__btn {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -90,5 +90,60 @@
         object-position: center;
       }
     }
+  }
+}
+
+.checkbox {
+  display: flex;
+  margin-bottom: 60px;
+  width: 100%;
+  justify-content: flex-start;
+  align-items: flex-end;
+  .option-input {
+    appearance: none;
+    position: relative;
+    height: 24px;
+    width: 24px;
+    transition: all 0.15s ease-out 0s;
+    background: #F8F8F8;
+    border: 1px solid #E4E8EB;
+    color: #fff;
+    cursor: pointer;
+    margin-right: 16px;
+    outline: none;
+    position: relative;
+    margin-right: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 0;
+  }
+  .option-input:hover {
+    border: 1px solid #B2B8BF;
+  }
+
+  .option-input:checked {
+    background: #4589FF;
+  }
+
+  .option-input:checked::before {
+    height: 8px;
+    width: 12px;
+    position: absolute;
+    content: '';
+    background-image: url('../media/icon/check.svg');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+  label {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #0C1017;
   }
 }
