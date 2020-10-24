@@ -26,6 +26,7 @@
         height: 100%;
         object-position: center;
         object-fit: contain;
+
       }
     }
 
@@ -42,14 +43,23 @@
         font-weight: 500;
         font-size: 14px;
         line-height: 20px;
+        &.active {
+          color: #0c1017;
+        }
       }
 
-      img {
+      svg {
         width: 9.33px;
         height: 5.6px;
         margin-left: 8px;
         object-position: center;
         object-fit: contain;
+        path {
+          fill: #fff;
+          &.active {
+            fill: #0c1017;
+          }
+        }
       }
     }
   }
@@ -70,9 +80,13 @@
           line-height: 20px;
           text-transform: uppercase;
           color: #FFFFFF;
-        }
 
-        img {
+          &.active {
+            color: #0c1017;
+          }
+        }
+        .plus,
+        .mine {
           width: 12px;
           height: 12px;
           margin-left: 8px;
@@ -81,8 +95,27 @@
           transform: rotate(0deg);
           transition: .3s;
         }
+        .mine {
+          display: none;
+          transform: rotate(90deg);
+          &.active {
+            display: block;
+            transform: rotate(0deg) !important;
+          }
+        }
+        .plus {
+          &.active {
+            display: none;
+          }
+        }
       }
-
+      .open__modal {
+        a {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+      }
       & li:first-child:hover a img {
         transform: rotate(90deg);
       }
@@ -129,6 +162,11 @@
       padding: 14px 20px;
       border: none;
     }
+    .work__contact {
+      &.active {
+        color: #0c1017;
+      }
+    }
   }
 }
 
@@ -160,5 +198,59 @@
         color: #0C1017!important;
       }
     }
+  }
+}
+
+// MODAL PRODUCTS IN HEADER
+
+.modal__products {
+  width: 100%;
+  background-color: #fff;
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding-top: 72px + 64px;
+  padding-bottom: 80px;
+  z-index: 19;
+  transform: translateY(-150%);
+  transition: .4s;
+  .col-modal {
+    padding: 0 30px;
+  }
+  img {
+    object-position: center;
+    object-fit: contain;
+    width: 40px;
+    height: 40px;
+    margin-bottom: 40px;
+  }
+  h3 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #0C1017;
+    margin-bottom: 12px;
+  }
+  .modal__list {
+    li {
+      list-style-type: none;
+      height: 48px;
+      border-bottom: 1px solid  #E7E8E8;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      a {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 22px;
+        color: #0C1017;
+      }
+    }
+  }
+  &.show {
+    transform: translateY(0);
   }
 }
