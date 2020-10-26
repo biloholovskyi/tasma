@@ -17,17 +17,22 @@
   <div class="logo__section">
     <a class="logo" href="/"><img src="./media/icon/logo/logo-blue.svg" alt="logo"></a>
     <div class="lang__block">
-      <p>РУcский</p>
-      <img src="./media/icon/arrow-down-b.svg" alt="icon">
+      <p>Руcский</p>
+      <svg width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M4.66667 5.6L0 0.933333L0.933333 0L4.66667 3.73333L8.4 0L9.33333 0.933333L4.66667 5.6Z" fill="white"/>
+      </svg>
     </div>
   </div>
   <nav class="navigation">
     <ul>
-      <li><a href="#">Продукция<img src="./media/icon/plus-b.svg" alt="icon"/></a></li>
+      <li class="open__modal"><a href="#">Продукция
+        <img class="plus" src="./media/icon/plus-b.svg" alt="icon"/>
+        <img class="mine" src="./media/icon/minus.svg" alt="icon"/>
+      </a></li>
       <li><a href="#">О компании</a></li>
       <li><a href="#">Документация</a></li>
       <li><a href="#">Новости</a></li>
-      <li><a href="#">Контакты</a></li>
+      <li><a href="/contact.html">Контакты</a></li>
     </ul>
   </nav>
   <div class="contact__section">
@@ -38,37 +43,96 @@
     <button class="contact__section--button">Заказать звонок</button>
   </div>
 </header>
+<div class="modal__products">
+  <div class="container">
+    <div class="row">
+      <div class="col-3 col-modal">
+        <img src="./media/icon/modal-icon.svg" alt="icon">
+        <h3>Продукция для
+          неразрушающего контроля</h3>
+        <ul class="modal__list">
+          <li><a href="#">Радиографические пленки</a></li>
+          <li><a href="#">Химические реактивы</a></li>
+          <li><a href="#">Оборудование</a></li>
+        </ul>
+      </div>
+      <div class="col-3 col-modal">
+        <img src="./media/icon/modal-icon2.svg" alt="icon">
+        <h3>Фотопленки и пленки
+          специального назначения</h3>
+        <ul class="modal__list">
+          <li><a href="#">Аэрофотопленки</a></li>
+          <li><a href="#">Фототехнические пленкиы</a></li>
+          <li><a href="#">Пленки для микрофильмирования</a></li>
+          <li><a href="#">Незапотевающие пленки</a></li>
+          <li><a href="#">Термочувствительные пленки</a></li>
+          <li><a href="#">Пленка для самописцев</a></li>
+          <li><a href="#">Химические реактивы</a></li>
+          <li><a href="#">Прочая продукция</a></li>
+        </ul>
+      </div>
+      <div class="col-3 col-modal">
+        <img src="./media/icon/modal-icon4.svg" alt="icon">
+        <h3>Упаковочные пленки, вакуумные и термоусадочные пакеты</h3>
+        <ul class="modal__list">
+          <li><a href="#">Термоусадочные барьерные пакеты</a></li>
+          <li><a href="#">Вакуумные пакеты</a></li>
+          <li><a href="#">Верхние покрывные пленки с драмм-эффектом для барьерных лотков </a></li>
+          <li><a href="#">Термоусадочные пленки</a></li>
+        </ul>
+      </div>
+      <div class="col-3 col-modal">
+        <img src="./media/icon/modal-icon3.svg" alt="icon">
+        <h3>Услуги</h3>
+        <ul class="modal__list">
+          <li><a href="#">Печать</a></li>
+          <li><a href="#">Обработка</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
 <div class="contact__page">
   <div class="container">
-    <div class="row contact__section">
-      <div class="col-3">
+    <div class="row">
+      <div class="col-12">
         <h1>Контакты</h1>
-        <div class="main__contact">
-          <div class="main__contact--item">
-            <h3>Адрес</h3>
-            <div class="contact__info">
-              420095, Республика Татарстан, г. Казань, ул. Восстания, д. 100, помещение 107.
-            </div>
-          </div>
-          <div class="main__contact--item">
-            <h3>Телефоны приемной</h3>
-            <a href="tel:+7 (843) 560-71-56" class="contact__info">+7 (843) 560-71-56</a>
-            <a href="tel:+7 (843) 560-51-31" class="contact__info">+7 (843) 560-51-31</a>
-          </div>
-          <div class="main__contact--item">
-            <h3>Email</h3>
-            <a href="mailto:priemnaya@tasma.ru" class="contact__info">priemnaya@tasma.ru</a>
-            </a>
-          </div>
-          <div class="main__contact--item">
-            <h3>Режим работы</h3>
-            <div class="contact__info">
-              Пн – Пт: с 8:00 до 17:00
-            </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-3">
+        <div class="main__contact--item">
+          <h3>Адрес</h3>
+          <div class="contact__info">
+            420095, Республика Татарстан, г. Казань, ул. Восстания, д. 100, помещение 107.
           </div>
         </div>
       </div>
-      <div class="col-9">
+      <div class="col-3">
+        <div class="main__contact--item">
+          <h3>Телефоны приемной</h3>
+          <a href="tel:+7 (843) 560-71-56" class="contact__info">+7 (843) 560-71-56</a>
+          <a href="tel:+7 (843) 560-51-31" class="contact__info">+7 (843) 560-51-31</a>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="main__contact--item">
+          <h3>Email</h3>
+          <a href="mailto:priemnaya@tasma.ru" class="contact__info">priemnaya@tasma.ru</a>
+          </a>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="main__contact--item">
+          <h3>Режим работы</h3>
+          <div class="contact__info">
+            Пн – Пт: с 8:00 до 17:00
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12">
         <div class="maps">
           <div class="contacts-map">
             <script src="https://api-maps.yandex.ru/2.1/?apikey=&lt;ваш API-ключ&gt;&amp;lang=ru_RU"
@@ -79,8 +143,7 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-3">
-        <div class="main__contact">
+      <div class="col-4">
           <div class="main__contact--item manager__block">
             <h3>Продукция для
               неразрушающего контроля</h3>
@@ -101,41 +164,48 @@
               </div>
             </div>
           </div>
-          <div class="main__contact--item manager__block">
-            <h3>Упаковочные решения</h3>
-            <div class="contact__manager">
-              <img class="manager__photo" src="./media/image/manager3.png" alt="photo">
-              <div class="manager__info">
-                <div class="name">Хайруллин Айрат Рафисович</div>
-                <a href="tel:+7 (843) 560-74-28" class="tel">+7 (843) 560-74-28</a>
-                <a class="email" href="mailto:upack@tasma.ru">upack@tasma.ru</a>
-              </div>
-            </div>
-            <div class="contact__manager">
-              <img class="manager__photo" src="./media/image/manager4.png" alt="photo">
-              <div class="manager__info">
-                <div class="name">Гаврилов Иван Анатольевич</div>
-                <a href="tel:+7 (843) 557-46-32" class="tel">+7 (843) 557-46-32</a>
-                <a class="email" href="mailto:i.gavrilov@tasma.ru">i.gavrilov@tasma.ru</a>
-              </div>
+      </div>
+      <div class="col-4">
+        <div class="main__contact--item manager__block">
+          <h3>Упаковочные решения</h3>
+          <div class="contact__manager">
+            <img class="manager__photo" src="./media/image/manager3.png" alt="photo">
+            <div class="manager__info">
+              <div class="name">Хайруллин Айрат Рафисович</div>
+              <a href="tel:+7 (843) 560-74-28" class="tel">+7 (843) 560-74-28</a>
+              <a class="email" href="mailto:upack@tasma.ru">upack@tasma.ru</a>
             </div>
           </div>
-          <div class="main__contact--item manager__block">
-            <h3>Фотопленки и пленки
-              специального назначения</h3>
-            <div class="contact__manager">
-              <img class="manager__photo" src="./media/image/manager.png" alt="photo">
-              <div class="manager__info">
-                <div class="name">Гаврилова Валентина Владимировна</div>
-                <a href="tel:+7 (843) 557-40-67" class="tel">+7 (843) 557-40-67</a>
-                <a class="email" href="mailto:v_v_gavrilova@mail.ru">v_v_gavrilova@mail.ru</a>
-              </div>
+          <div class="contact__manager">
+            <img class="manager__photo" src="./media/image/manager4.png" alt="photo">
+            <div class="manager__info">
+              <div class="name">Гаврилов Иван Анатольевич</div>
+              <a href="tel:+7 (843) 557-46-32" class="tel">+7 (843) 557-46-32</a>
+              <a class="email" href="mailto:i.gavrilov@tasma.ru">i.gavrilov@tasma.ru</a>
             </div>
           </div>
         </div>
       </div>
-      <div class="col-9">
-        <div class="contact__form">
+      <div class="col-4">
+        <div class="main__contact--item manager__block">
+          <h3>Фотопленки и пленки
+            специального назначения</h3>
+          <div class="contact__manager">
+            <img class="manager__photo" src="./media/image/manager.png" alt="photo">
+            <div class="manager__info">
+              <div class="name">Гаврилова Валентина Владимировна</div>
+              <a href="tel:+7 (843) 557-40-67" class="tel">+7 (843) 557-40-67</a>
+              <a class="email" href="mailto:v_v_gavrilova@mail.ru">v_v_gavrilova@mail.ru</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container" style="background-color: #F5F5F6; padding-top: 64px; padding-bottom: 64px">
+    <div class="row">
+      <div class="col-8 offset-2">
+        <div class="contact__form contact__page--form">
           <h3 class="contact__form--title">Есть жалобы или предложения?</h3>
           <p class="contact__form--desc">Заполните форму бла бла бла (сюда надо еще текст какой то придумать)</p>
           <form class="main__form">
