@@ -1,5 +1,6 @@
 import {inputForm} from "./input";
 import './countInput';
+import './slider';
 
 $(document).ready(() => {
   $('input, textarea').on('input', inputForm);

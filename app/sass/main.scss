@@ -9,7 +9,7 @@
 }
 
 .container {
-  max-width: 1440px;
+  max-width: 1280px;
   margin-right: 80px;
   margin-left: 80px;
   margin: 0 auto;
@@ -56,6 +56,7 @@ img {
 
 /*pages*/
 @import "pages/contact";
+@import "pages/catalog";
 
 /*media*/
 @import "media/820h";
