@@ -1,0 +1,426 @@
+.catalog__item-page {
+  padding: 65px 0;
+
+  .catalog__content {
+    padding-right: 65px;
+
+    .btn__back {
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 22px;
+      text-transform: uppercase;
+      color: #0C1017;
+      margin-bottom: 24px;
+      display: flex;
+      flex-direction: row-reverse;
+      align-items: center;
+      justify-content: flex-end;
+
+      img {
+        width: 24px;
+        height: 24px;
+        object-position: center;
+        object-fit: contain;
+        margin-right: 12px;
+      }
+    }
+
+    &-title {
+      font-style: normal;
+      font-weight: 500;
+      font-size: 40px;
+      line-height: 50px;
+      text-transform: uppercase;
+      color: #0C1017;
+      margin-bottom: 40px;
+    }
+
+    &-images {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 40px;
+
+      img {
+        flex: 1;
+        max-width: 172px;
+        height: 172px;
+        margin-right: 22px;
+      }
+
+      & img:last-child {
+        margin-right: 0;
+      }
+    }
+
+    &-desc {
+      padding-bottom: 40px;
+      margin-bottom: 40px;
+      border-bottom: 1px solid rgba(12, 16, 23, 0.1);
+
+      .title {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 24px;
+        color: #0C1017;
+        margin-bottom: 24px;
+      }
+
+      .desc {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 22px;
+        color: #0C1017;
+      }
+    }
+
+    &-benefits {
+      padding-bottom: 40px;
+      margin-bottom: 40px;
+      border-bottom: 1px solid rgba(12, 16, 23, 0.1);
+      .title {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 24px;
+        color: #0C1017;
+        margin-bottom: 24px;
+      }
+
+      .benefits-item {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        margin-bottom: 32px;
+        .benefits-img {
+          width: 40px;
+          height: 40px;
+          min-width: 40px;
+          border-radius: 50%;
+          position: relative;
+          background-color: rgba(69, 137, 255, 0.1);
+          margin-right: 16px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+
+          img {
+            width: 24px;
+            height: 24px;
+            object-fit: contain;
+            object-position: center;
+            position: absolute;
+            min-width: 24px;
+          }
+        }
+        p {
+          font-style: normal;
+          font-weight: normal;
+          font-size: 16px;
+          line-height: 22px;
+          color: #0C1017;
+          margin: 0;
+        }
+      }
+      & .benefits-item:last-child {
+        margin-bottom: 0;
+      }
+    }
+
+    &-main {
+      padding-bottom: 40px;
+      margin-bottom: 40px;
+      border-bottom: 1px solid rgba(12, 16, 23, 0.1);
+      h3 {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 48px;
+        line-height: 56px;
+        text-transform: uppercase;
+        color: #0C1017;
+        margin-bottom: 16px;
+      }
+    }
+
+    &-info {
+      padding-bottom: 40px;
+      margin-bottom: 40px;
+      border-bottom: 1px solid rgba(12, 16, 23, 0.1);
+      .temperature__section {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        margin-bottom: 16px;
+        .temperature__item {
+          display: flex;
+          flex-direction: column;
+          justify-content: flex-start;
+          align-items: flex-start;
+          h4 {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 12px;
+            line-height: 18px;
+            letter-spacing: 0.01em;
+            text-transform: uppercase;
+            color: #6D7074;
+            margin-bottom: 6px;
+          }
+          p {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 48px;
+            line-height: 56px;
+            text-transform: uppercase;
+            color: #0C1017;
+            position: relative;
+            margin: 0;
+            span {
+              font-style: normal;
+              font-weight: normal;
+              font-size: 20px;
+              line-height: 26px;
+              color: #000000;
+              position: absolute;
+              top: 50%;
+              transform: translateY(-50%);
+              right: -25px;
+            }
+          }
+        }
+      }
+    }
+
+    &-info {
+      padding-bottom: 40px;
+      margin-bottom: 40px;
+      border-bottom: 1px solid rgba(12, 16, 23, 0.1);
+      .documents {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .document__item {
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          justify-content: center;
+          max-width: 250px;
+          min-width: 250px;
+          margin-right: 24px;
+          .document__image {
+            width: 100%;
+            height: 100%;
+            object-position: center;
+            object-fit: cover;
+            margin-bottom: 16px;
+          }
+          .document__title {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 22px;
+            color: #0C1017;
+            margin-bottom: 4px;
+          }
+          .document__desc {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 20px;
+            text-transform: uppercase;
+            color: #6D7074;
+          }
+        }
+        & .document__item:last-child {
+          margin-right: 0;
+        }
+      }
+    }
+
+    .info-2 {
+      .temperature__section {
+        margin-bottom: 0;
+        .temperature__item {
+          .temperatute__info {
+            margin: 0;
+            span {
+              position: static;
+            }
+          }
+          h5 {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 20px;
+            color: #6D7074;
+            margin: 0;
+          }
+        }
+      }
+    }
+
+    .info-3 {
+      .temperature__section {
+        margin-bottom: 0;
+        .temperature__item {
+          margin: 0;
+          p {
+            padding-left: 25px;
+            span {
+              left: 0;
+              right: unset;
+            }
+          }
+        }
+      }
+    }
+
+    .info-4 {
+      padding-bottom: 0;
+      border-bottom: 0;
+      margin-bottom: 0;
+    }
+
+    .other__products {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: center;
+      &-item {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 16px;
+        img {
+          width: 64px;
+          height: 64px;
+          margin-right: 16px;
+          object-fit: cover;
+          object-position: center;
+        }
+        h4 {
+          font-style: normal;
+          font-weight: normal;
+          font-size: 16px;
+          line-height: 22px;
+          color: #0C1017;
+          margin: 0;
+        }
+      }
+      & .other__products-item:last-child {
+        margin-bottom: 0;
+      }
+    }
+
+    .acc {
+      border: 1px solid #E7E8E8;
+      margin: 0;
+      li {
+        padding: 17px 20px;
+        margin: 0;
+        border-bottom: 1px solid #E7E8E8;
+        .uk-accordion-title {
+          font-style: normal;
+          font-weight: 500;
+          font-size: 16px;
+          line-height: 22px;
+          color: #0C1017;
+        }
+        .uk-accordion-content {
+          p {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 22px;
+            color: #6D7074;
+          }
+        }
+      }
+      & li:last-child {
+        border-bottom: none;
+      }
+    }
+  }
+  .single__page--form {
+    padding: 45px 0 0 65px;
+    //border-left: 1px solid rgba(12, 16, 23, 0.1);
+  }
+}
+
+.items__title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 24px;
+  color: #0C1017;
+  margin-bottom: 24px;
+}
+
+.items__desc {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  color: #0C1017;
+}
+.single__header {
+  ul,p {
+    margin: 0!important;
+  }
+}
+
+.order {
+  background-color: #F5F5F6;
+  width: 100%;
+  .order__wrap {
+    display: flex;
+    justify-content: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    padding: 80px 0;
+    h3 {
+      font-style: normal;
+      font-weight: 500;
+      font-size: 40px;
+      line-height: 50px;
+      text-transform: uppercase;
+      color: #0C1017;
+      margin-bottom: 24px;
+    }
+    p {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 22px;
+      color: #0C1017;
+      margin-bottom: 40px;
+    }
+    .contact__btn {
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 20px;
+      text-align: center;
+      text-transform: uppercase;
+      color: #FFFFFF;
+      padding: 14px 32px;
+      background-color:  #4589FF;
+      border: none;
+      max-width: 210px;
+    }
+  }
+  .order__img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 0;
+    img {
+      width: 285.33px;
+      height: 282.54px;
+    }
+  }
+}
