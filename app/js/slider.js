@@ -15,3 +15,11 @@ $('.owl-catalog').owlCarousel({
     }
   }
 })
+
+$('.owl-about').owlCarousel({
+  loop:false,
+  margin:10,
+  nav:true,
+  dots: true,
+  items: 1
+})
