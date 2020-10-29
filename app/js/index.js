@@ -24,5 +24,6 @@ $(document).ready(() => {
     $('.main__header .navigation ul li  .mine').toggleClass('active');
     $('.main__header .navigation ul li  .plus').toggleClass('active');
     $('.modal__products').toggleClass('show');
+    $('body').toggleClass('active');
   });
 });

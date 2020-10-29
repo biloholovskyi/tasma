@@ -236,7 +236,8 @@
   .modal__list {
     li {
       list-style-type: none;
-      height: 48px;
+      height: fit-content;
+      min-height: 48px;
       border-bottom: 1px solid  #E7E8E8;
       display: flex;
       justify-content: flex-start;
