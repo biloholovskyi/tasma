@@ -346,7 +346,9 @@
   }
   .single__page--form {
     padding: 45px 0 0 65px;
-    //border-left: 1px solid rgba(12, 16, 23, 0.1);
+    border-left: 1px solid rgba(12, 16, 23, 0.1);
+    position: sticky;
+    top: 0;
   }
 }
 

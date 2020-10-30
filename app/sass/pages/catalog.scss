@@ -41,6 +41,8 @@
 }
 
 .catalog__aside {
+  position: sticky;
+  top: 0;
   .aside__item {
     list-style-type: none;
     //height: 60px;
