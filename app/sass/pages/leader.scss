@@ -1,0 +1,46 @@
+.leader__page {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  .leader__item {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 48px;
+    img {
+      flex: 1;
+      margin-right: 25px;
+      width: 302px;
+      height: 402px;
+      object-fit: cover;
+      object-position: center;
+    }
+    .leader__info {
+      flex: 2;
+      .name {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 32px;
+        color: #0C1017;
+        margin-bottom: 8px;
+      }
+      .position {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 22px;
+        color: #6D7074;
+        margin-bottom: 24px;
+      }
+      .desc {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 22px;
+        color: #0C1017;
+      }
+    }
+  }
+}

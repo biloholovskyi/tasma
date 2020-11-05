@@ -85,6 +85,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  transition: .5s;
   &--item {
     text-align: center;
     padding: 200px 0;
@@ -124,6 +125,19 @@
       color: rgba(255, 255, 255, 0.6);
     }
   }
+}
+
+// image hover for block with 4 card
+.products__section.hover1 {
+  background-image: url("../media/image/bghover.png");
+}
+.products__section.hover2 {
+  background-image: url("../media/image/bghover2.png");
+}.products__section.hover3 {
+   background-image: url("../media/image/bghover.png");
+ }
+.products__section.hover4 {
+  background-image: url("../media/image/bghover2.png");
 }
 
 // FORM BLOCK
@@ -230,7 +244,7 @@
     height: 1055px;
     &--item {
       //background-image: url("../media/image/news1.png");
-      //background: linear-gradient(0deg, #4589FF, #4589FF), url(pexels-pixabay-417070.jpg);
+      //background: linear-gradient(0deg, #4589FF, #4589FF);
       filter: drop-shadow(0px 2px 8px rgba(0, 0, 0, 0.16));
       margin-bottom: 20px;
       width: 100%;
@@ -280,8 +294,8 @@
         transition: .3s;
       }
       &:hover {
-        background: linear-gradient(0deg, #4589FF, #4589FF), url(pexels-pixabay-417070.jpg);
-        box-shadow: 0px 2px 8px rgba(69, 137, 255, 0.4);
+        background: linear-gradient(0deg, #4589FF, #4589FF);
+        box-shadow: 0 2px 8px rgba(69, 137, 255, 0.4);
         z-index: 1;
       }
       &:hover .news__image {
