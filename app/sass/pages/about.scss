@@ -162,8 +162,8 @@
     padding-bottom: 32px;
     &--item {
       flex: 50%;
-      max-width: 450px;
-      margin: 0 24px 24px 0;
+      max-width: calc(100% / 2 - 10px);
+      margin: 0 10px 24px 0;
       display: flex;
       flex-direction: column;
       justify-content: flex-end;

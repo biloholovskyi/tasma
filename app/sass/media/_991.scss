@@ -1,5 +1,146 @@
 @media screen and (max-width: 991px) {
-   
+  .main__header {
+    padding: 20px 16px 0;
+    .logo__section {
+      border: none;
+      padding-right: 0;
+      margin-right: 0;
+      .lang__block {
+        display: none;
+      }
+    }
+    .navigation {
+      display: none;
+    }
+    .burger {
+      display: block;
+    }
+  }
+  .intro {
+    h1 {
+      font-size: 45px;
+      line-height: 55px;
+    }
+    .partners__section {
+      flex-wrap: wrap;
+      .partner__item {
+        margin-right: 15px;
+        margin-bottom: 20px;
+        max-width: 130px;
+      }
+      & .partner__item:last-child {
+        margin-right: 0;
+      }
+    }
+    &:after {
+      width: 550px;
+      height: 550px;
+    }
+    &:before {
+      width: 550px;
+      height: 550px;
+    }
+  }
+  .products__section {
+    flex-wrap: wrap;
+  }
+  .products__section--item {
+    flex: 50%;
+  }
+  .products__section--item1 {
+    border-bottom: 1px solid rgba(255,255,255,.1);
+  }
+  .products__section--item2 {
+    border-bottom: 1px solid rgba(255,255,255,.1);
+  }
 
-
+  .main__form {
+    .send__block {
+      align-items: flex-start;
+      justify-content: flex-start;
+      button {
+        margin-right: 20px;
+      }
+      p {
+        display: none;
+      }
+    }
+  }
+  .form__section  {
+    padding: 100px 0;
+    h2 {
+      font-size: 22px;
+      line-height: 30px;
+    }
+    &:after {
+      width: 500px;
+      height: 500px;
+    }
+  }
+  .news__section {
+    h2 {
+      font-size: 25px;
+      line-height: 40px;
+    }
+  }
+  .footer__list {
+    margin-bottom: 50px;
+  }
+  .contact__page {
+    .main__contact--item {
+      h3 {
+        font-size: 16px;
+      }
+      .contact__info {
+        font-size: 14px;
+        line-height: 20px;
+      }
+    }
+  }
+  .catalog__page {
+    .catalog__title {
+      font-size: 30px;
+      line-height: 40px;
+    }
+  }
+  .row__title {
+    border: none;
+    padding-bottom: 0;
+    margin-bottom: 16px;
+  }
+  .aside__catalog--content {
+    .catalog__aside--contact {
+      display: none;
+    }
+    .catalog__aside {
+      display: flex;
+      flex-direction: row;
+      overflow: auto;
+      border-bottom: 1px solid  #E7E7E8;
+      .aside__item {
+        min-width: max-content;
+        border: none ;
+        border-bottom: 2px solid transparent;
+        padding-left: 0;
+        margin-right: 20px;
+      }
+      &::-webkit-scrollbar {
+        display: none;
+      }
+    }
+  }
+  .about__page {
+    .about__title {
+      font-size: 25px;
+      line-height: 40px;
+    }
+    .aside__title {
+      display: none;
+    }
+    .stats__block {
+      .stats__block--item .numbers {
+        font-size: 50px;
+      }
+    }
+  }
 }

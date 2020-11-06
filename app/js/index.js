@@ -6,7 +6,6 @@ import './hover';
 $(document).ready(() => {
   $('input, textarea').on('input', inputForm);
 
-
   // modal on vacancies page
   $('.vacancies').on('click', function (){
       $('.vacancies__modal--overlay').addClass('active');
@@ -28,6 +27,7 @@ $(document).ready(() => {
     $('.modal__products').toggleClass('show');
     $('body').toggleClass('active');
   });
+
 });
 
 $(document).on('click', function (e){

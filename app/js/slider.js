@@ -5,12 +5,17 @@ $('.owl-catalog').owlCarousel({
   dots: false,
   responsive:{
     0:{
-      items:1
+      items:3,
+      dots: true
     },
     600:{
-      items:3
+      items:3,
+      dots: true
     },
-    1000:{
+    800:{
+      items: 4
+    },
+    1200:{
       items:6
     }
   }

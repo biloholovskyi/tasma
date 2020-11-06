@@ -312,3 +312,14 @@ body.active {
   height: 100vh;
   overflow: hidden;
 }
+.mobile__arrow {
+  border: none;
+  background-color: transparent;
+  display: none;
+  img {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+    object-position: center;
+  }
+}

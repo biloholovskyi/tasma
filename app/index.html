@@ -17,10 +17,11 @@
   <div class="logo__section">
     <a class="logo" href="/"><img src="./media/icon/logo/logo.svg" alt="logo"></a>
     <div class="lang__block">
-      <p>Руcский</p>
+      <p class="ru">Руcский</p>
       <svg width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path d="M4.66667 5.6L0 0.933333L0.933333 0L4.66667 3.73333L8.4 0L9.33333 0.933333L4.66667 5.6Z" fill="white"/>
       </svg>
+<!--      <p class="eng">English</p>-->
     </div>
   </div>
   <nav class="navigation">
@@ -42,6 +43,7 @@
     </div>
     <button class="contact__section--button">Заказать звонок</button>
   </div>
+  <img src="./media/icon/burger.svg" alt="icon" class="burger" />
 </header>
 <div class="modal__products">
   <div class="container">
@@ -122,31 +124,35 @@
     <p>Продукция для<br>
       неразрушающего контроля</p>
     <button class="product__button">Перейти в каталог</button>
+    <button class="mobile__arrow"><img src="./media/icon/arrow.svg" alt="image"></button>
   </div>
   <div class="products__section--item products__section--item2">
     <p>Фотопленки и пленки<br>
       специального назначения</p>
     <button class="product__button">Перейти в каталог</button>
+    <button class="mobile__arrow"><img src="./media/icon/arrow.svg" alt="image"></button>
   </div>
   <div class="products__section--item products__section--item3">
     <p>Упаковочные пленки,<br>
       вакуумные и термоусадочные барьерные пакеты</p>
     <button class="product__button">Перейти в каталог</button>
+    <button class="mobile__arrow"><img src="./media/icon/arrow.svg" alt="image"></button>
   </div>
   <div class="products__section--item products__section--item4" style="border-right: none">
     <p>Услуги</p>
     <button class="product__button">Перейти в каталог</button>
+    <button class="mobile__arrow"><img src="./media/icon/arrow.svg" alt="image"></button>
   </div>
 </div>
 <div class="form__section">
   <div class="container">
     <div class="row">
-      <div class="col-6">
+      <div class="col-12 col-sm-12 col-md-6 col-lg-6">
         <h3 class="small__title ">Lorem ipsum dolor</h3>
         <h2>Nullam aliquet faucibus<br>nibh sodales varius.<br>Vivamus commodo</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam aliquet faucibus nibh sodales varius. Vivamus commodo pulvinar felis sit amet placerat.</p>
       </div>
-      <div class="col-6">
+      <div class="col-12 col-sm-12 col-md-6 col-lg-6">
         <form class="main__form">
           <div class="main__form--input input-wrapper">
             <div class="placeholder">Как к вам обращаться?</div>
@@ -160,14 +166,17 @@
             <div class="placeholder">Email</div>
             <input name="email"  type="text" required />
           </div>
-          <div class="checkbox">
-            <input type="checkbox" class="option-input"  id="mainCheckbox"/>
-            <label for="mainCheckbox">Я согласен с  Условиями обработки персональных данных</label>
+<!--          <div class="checkbox">-->
+<!--            <input type="checkbox" class="option-input"  id="mainCheckbox"/>-->
+<!--            <label for="mainCheckbox">Я согласен с  Условиями обработки персональных данных</label>-->
+<!--          </div>-->
+          <div class="send__block">
+            <button type="submit" class="main__btn">
+              Отправить
+              <div class="arrow__section"><img src="./media/icon/arrow-r.svg" alt="icon"></div>
+            </button>
+            <p>Нажимая "Отправить" вы соглашаетесь с политикой обработки персональных данных</p>
           </div>
-          <button type="submit" class="main__btn">
-            Отправить
-            <div class="arrow__section"><img src="./media/icon/arrow-r.svg" alt="icon"></div>
-          </button>
         </form>
       </div>
     </div>
@@ -176,13 +185,13 @@
 <div class="news__section">
   <div class="container">
     <div class="row">
-      <div class="col-6">
+      <div class="col-12 col-sm-12 col-md-6 col-lg-6">
         <h3 class="small__title ">Новости</h3>
         <h2>Будь в курсе последних событий индустрии</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam aliquet faucibus nibh sodales varius. Vivamus commodo pulvinar felis sit amet placerat.</p>
         <button class="news__button">Читать наш блог</button>
       </div>
-      <div class="col-6">
+      <div class="col-12 col-sm-12 col-md-6 col-lg-6">
         <div class="news__content">
           <div class="news__content--item">
             <img class="news__image" src="./media/image/test.png" alt="image"/>
@@ -225,30 +234,39 @@
     </div>
   </div>
 </div>
+<!-- MODAL SUCCES-->
+<div class="modal__succes--overlay" style="display: none">
+  <div class="modal__succes">
+    <div class="modal__img"></div>
+    <h3>Ваша заявка отправлена</h3>
+    <p>Заполните форму бла бла бла (сюда надо еще текст какой то придумать)</p>
+    <button>Понятно</button>
+  </div>
+</div>
 <footer class="main__footer">
   <div class="container">
     <div class="row">
-      <div class="col-3">
+      <div class="col-12 col-sm-6 col-md-6 col-lg-3 order-md-3 order-sm-3 order-4 order-lg-1">
         <img class="footer__logo" src="./media/icon/footerLogo.svg" alt="logo">
         <div class="footer__info">© 19ХХ-2020 АО «ТАСМА»</div>
         <div class="footer__info">Разработка сайта: Acme Inc.</div>
       </div>
-      <div class="col-3">
+      <div class="col-12 col-sm-6 col-md-6 col-lg-3 order-md-1 order-sm-1 order-1 order-lg-2">
         <ul class="footer__list">
           <li><a href="#">Продукция</a></li>
           <li><a href="#">Новости</a></li>
           <li><a href="/about.html">О компании</a></li>
           <li><a href="#">Закупки</a></li>
-          <li><a href="#">Документация</a></li>
+          <li><a href="/documents.html">Документация</a></li>
         </ul>
       </div>
-      <div class="col-3">
+      <div class="col-12 col-sm-6 col-md-6 col-lg-3 order-md-2 order-sm-2 order-2 order-lg-3">
         <h3>Контакты</h3>
         <a href="tel:8 (843) 560-71-56" class="footer__contacts">8 (843) 560-71-56</a>
         <p class="footer__contacts">Казань, ул. Восстания, 100, пом. 107</p>
         <a href="mailto:info@tasma.ru" class="footer__contacts">info@tasma.ru</a>
       </div>
-      <div class="col-3">
+      <div class="col-12 col-sm-6 col-md-6 col-lg-3 order-md-4 order-sm-4 order-3 order-lg-4">
         <button class="main__btn">Расчитать стоимость
           <div class="arrow__section"><img src="./media/icon/arrow-r.svg" alt="icon"></div>
         </button>

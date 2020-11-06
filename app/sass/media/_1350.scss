@@ -1,0 +1,15 @@
+@media screen and (max-width: 1412px) {
+  .main__header {
+    .navigation ul li a {
+      font-size: 13px;
+    }
+    .contact__section {
+      .contact__section--tel {
+        display: none;
+      }
+      .contact__section--button {
+        margin-left: 0;
+      }
+    }
+  }
+}

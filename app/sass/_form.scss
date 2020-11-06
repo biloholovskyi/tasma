@@ -83,24 +83,7 @@
       }
     }
   }
-  //&--checkbox {
-  //  display: flex;
-  //  align-items: center;
-  //  justify-content: flex-start;
-  //  margin-bottom: 62px;
-  //  input {
-  //    width: 24px;
-  //    height: 24px;
-  //    margin-right: 16px;
-  //  }
-  //  label {
-  //    font-style: normal;
-  //    font-weight: normal;
-  //    font-size: 16px;
-  //    line-height: 22px;
-  //    color: #0C1017;
-  //  }
-  //}
+
   .main__btn {
     display: flex;
     align-items: center;
@@ -127,6 +110,21 @@
         object-fit: contain;
         object-position: center;
       }
+    }
+  }
+  .send__block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    button {
+      margin-right: 48px;
+    }
+    p {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 22px;
+      color: #6D7074;
     }
   }
 }

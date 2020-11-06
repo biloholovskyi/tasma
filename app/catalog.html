@@ -32,7 +32,7 @@
         <img class="mine" src="./media/icon/minus.svg" alt="icon"/>
       </a></li>
       <li><a href="/about.html">О компании</a></li>
-      <li><a href="#">Документация</a></li>
+      <li><a href="/documents.html">Документация</a></li>
       <li><a href="#">Новости</a></li>
       <li><a href="/contact.html">Контакты</a></li>
     </ul>
@@ -44,6 +44,7 @@
     </div>
     <button class="contact__section--button">Заказать звонок</button>
   </div>
+  <img style="filter: invert(1)" src="./media/icon/burger.svg" alt="icon" class="burger" />
 </header>
 <div class="modal__products">
   <div class="container">
@@ -96,24 +97,45 @@
 </div>
 <div class="catalog__page">
   <div class="container">
-    <div class="row" style="margin-bottom: 64px; padding-bottom: 64px; border-bottom: 1px solid rgba(12, 16, 23, 0.1);">
+    <div class="row row__title" >
       <div class="col-12">
         <h1 class="catalog__title">Продукция для неразрушающего контроля</h1>
       </div>
-      <div class="col-10">
+      <div class="col-12 col-lg-10 col-md-10 col-sm-10">
         <p class="catalog__desc">ООО «НПП «Тасма»  является носителем технологий и единственным отечественным производителем полного цикла радиографических технических пленок для неразрушающего контроля.</p>
       </div>
     </div>
     <div class="row">
-      <div class="col-3">
-        <ul class="catalog__aside">
-          <li class="aside__item active"><a href="#">Вся продуцкия</a></li>
-          <li class="aside__item"><a href="#">Радиографические технические пленки</a></li>
-          <li class="aside__item"><a href="#">Химические реактивы</a></li>
-          <li class="aside__item"><a href="#">Оборудование и принадлежности</a></li>
-        </ul>
+      <div class="col-12 col-sm-12 col-md-12 col-lg-3">
+        <div class="aside__catalog--content">
+          <ul class="catalog__aside">
+            <li class="aside__item active"><a href="#">Вся продуцкия</a></li>
+            <li class="aside__item"><a href="#">Радиографические технические пленки</a></li>
+            <li class="aside__item"><a href="#">Химические реактивы</a></li>
+            <li class="aside__item"><a href="#">Оборудование и принадлежности</a></li>
+          </ul>
+          <div class="catalog__aside--contact">
+            <h3>Контакты</h3>
+            <div class="contact__manager">
+              <img class="manager__photo" src="./media/image/manager1.png" alt="photo">
+              <div class="manager__info">
+                <div class="name">Важкин Павел Максимович</div>
+                <a href="tel:+7 (843) 557-40-99" class="tel">+7 (843) 557-40-99</a>
+                <a class="email" href="mailto:p.tasma@mail.ru">p.tasma@mail.ru</a>
+              </div>
+            </div>
+            <div class="contact__manager">
+              <img class="manager__photo" src="./media/image/manager1.png" alt="photo">
+              <div class="manager__info">
+                <div class="name">Важкин Павел Максимович</div>
+                <a href="tel:+7 (843) 557-40-99" class="tel">+7 (843) 557-40-99</a>
+                <a class="email" href="mailto:p.tasma@mail.ru">p.tasma@mail.ru</a>
+              </div>
+            </div>
+        </div>
+        </div>
       </div>
-      <div class="col-9">
+      <div class="col-12 col-sm-12 col-md-12 col-lg-9">
         <div class="catalog__content">
           <a href="/catalog-item.html" class="catalog__item">
             <img class="catalog__image" src="./media/image/catalog.png" alt="image">
@@ -209,12 +231,12 @@
 <footer class="main__footer">
   <div class="container">
     <div class="row">
-      <div class="col-3">
+      <div class="col-12 col-sm-6 col-md-6 col-lg-3 order-md-3 order-sm-3 order-4 order-lg-1">
         <img class="footer__logo" src="./media/icon/footerLogo.svg" alt="logo">
         <div class="footer__info">© 19ХХ-2020 АО «ТАСМА»</div>
         <div class="footer__info">Разработка сайта: Acme Inc.</div>
       </div>
-      <div class="col-3">
+      <div class="col-12 col-sm-6 col-md-6 col-lg-3 order-md-1 order-sm-1 order-1 order-lg-2">
         <ul class="footer__list">
           <li><a href="#">Продукция</a></li>
           <li><a href="#">Новости</a></li>
@@ -223,13 +245,13 @@
           <li><a href="#">Документация</a></li>
         </ul>
       </div>
-      <div class="col-3">
+      <div class="col-12 col-sm-6 col-md-6 col-lg-3 order-md-2 order-sm-2 order-2 order-lg-3">
         <h3>Контакты</h3>
         <a href="tel:8 (843) 560-71-56" class="footer__contacts">8 (843) 560-71-56</a>
         <p class="footer__contacts">Казань, ул. Восстания, 100, пом. 107</p>
         <a href="mailto:info@tasma.ru" class="footer__contacts">info@tasma.ru</a>
       </div>
-      <div class="col-3">
+      <div class="col-12 col-sm-6 col-md-6 col-lg-3 order-md-4 order-sm-4 order-3 order-lg-4">
         <button class="main__btn">Расчитать стоимость
           <div class="arrow__section"><img src="./media/icon/arrow-r.svg" alt="icon"></div>
         </button>

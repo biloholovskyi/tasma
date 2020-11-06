@@ -1,5 +1,25 @@
 @media screen and (max-width: 1199px) {
-  
-
-
+  .main__header {
+    .contact__section {
+      display: none;
+    }
+  }
+  .form__section  {
+    h2 {
+      font-size: 30px;
+      line-height: 45px;
+    }
+    p {
+      font-size: 14px;
+    }
+  }
+  .news__section {
+    h2 {
+      font-size: 30px;
+      line-height: 40px;
+    }
+    p {
+      font-size: 14px;
+    }
+  }
 }

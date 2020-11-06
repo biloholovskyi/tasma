@@ -30,7 +30,7 @@
         <img class="mine" src="./media/icon/minus.svg" alt="icon"/>
       </a></li>
       <li><a href="/about.html">О компании</a></li>
-      <li><a href="#">Документация</a></li>
+      <li><a href="/documents.html">Документация</a></li>
       <li><a href="#">Новости</a></li>
       <li><a href="/contact.html">Контакты</a></li>
     </ul>
@@ -42,6 +42,7 @@
     </div>
     <button class="contact__section--button">Заказать звонок</button>
   </div>
+  <img style="filter: invert(1);" src="./media/icon/burger.svg" alt="icon" class="burger" />
 </header>
 <div class="modal__products">
   <div class="container">
@@ -100,7 +101,7 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-3">
+      <div class="col-12 col-sm-6 col-md-3 col-lg-3">
         <div class="main__contact--item">
           <h3>Адрес</h3>
           <div class="contact__info">
@@ -108,21 +109,21 @@
           </div>
         </div>
       </div>
-      <div class="col-3">
+      <div class="col-12 col-sm-6 col-md-3 col-lg-3">
         <div class="main__contact--item">
           <h3>Телефоны приемной</h3>
           <a href="tel:+7 (843) 560-71-56" class="contact__info">+7 (843) 560-71-56</a>
           <a href="tel:+7 (843) 560-51-31" class="contact__info">+7 (843) 560-51-31</a>
         </div>
       </div>
-      <div class="col-3">
+      <div class="col-12 col-sm-6 col-md-3 col-lg-3">
         <div class="main__contact--item">
           <h3>Email</h3>
           <a href="mailto:priemnaya@tasma.ru" class="contact__info">priemnaya@tasma.ru</a>
           </a>
         </div>
       </div>
-      <div class="col-3">
+      <div class="col-12 col-sm-6 col-md-3 col-lg-3">
         <div class="main__contact--item">
           <h3>Режим работы</h3>
           <div class="contact__info">
@@ -131,80 +132,91 @@
         </div>
       </div>
     </div>
-    <div class="row">
-      <div class="col-12">
-        <div class="maps">
-          <div class="contacts-map">
-            <script src="https://api-maps.yandex.ru/2.1/?apikey=&lt;ваш API-ключ&gt;&amp;lang=ru_RU"
-                    type="text/javascript"></script>
-            <div class="contact-page__map" id="map"></div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-4">
-          <div class="main__contact--item manager__block">
-            <h3>Продукция для
-              неразрушающего контроля</h3>
-            <div class="contact__manager">
-              <img class="manager__photo" src="./media/image/manager1.png" alt="photo">
-              <div class="manager__info">
-                <div class="name">Важкин Павел Максимович</div>
-                <a href="tel:+7 (843) 557-40-99" class="tel">+7 (843) 557-40-99</a>
-                <a class="email" href="mailto:p.tasma@mail.ru">p.tasma@mail.ru</a>
-              </div>
-            </div>
-            <div class="contact__manager">
-              <img class="manager__photo" src="./media/image/manager2.png" alt="photo">
-              <div class="manager__info">
-                <div class="name">Галеева Зинаида Александровна</div>
-                <a href="tel:+7 (843) 555-67-20" class="tel">+7 (843) 555-67-20</a>
-                <a class="email" href="mailto:nikolaeva@tasma.ru">nikolaeva@tasma.ru</a>
-              </div>
-            </div>
-          </div>
-      </div>
-      <div class="col-4">
-        <div class="main__contact--item manager__block">
-          <h3>Упаковочные решения</h3>
-          <div class="contact__manager">
-            <img class="manager__photo" src="./media/image/manager3.png" alt="photo">
-            <div class="manager__info">
-              <div class="name">Хайруллин Айрат Рафисович</div>
-              <a href="tel:+7 (843) 560-74-28" class="tel">+7 (843) 560-74-28</a>
-              <a class="email" href="mailto:upack@tasma.ru">upack@tasma.ru</a>
-            </div>
-          </div>
-          <div class="contact__manager">
-            <img class="manager__photo" src="./media/image/manager4.png" alt="photo">
-            <div class="manager__info">
-              <div class="name">Гаврилов Иван Анатольевич</div>
-              <a href="tel:+7 (843) 557-46-32" class="tel">+7 (843) 557-46-32</a>
-              <a class="email" href="mailto:i.gavrilov@tasma.ru">i.gavrilov@tasma.ru</a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-4">
-        <div class="main__contact--item manager__block">
-          <h3>Фотопленки и пленки
-            специального назначения</h3>
-          <div class="contact__manager">
-            <img class="manager__photo" src="./media/image/manager.png" alt="photo">
-            <div class="manager__info">
-              <div class="name">Гаврилова Валентина Владимировна</div>
-              <a href="tel:+7 (843) 557-40-67" class="tel">+7 (843) 557-40-67</a>
-              <a class="email" href="mailto:v_v_gavrilova@mail.ru">v_v_gavrilova@mail.ru</a>
+  </div>
+</div>
+  <div class="contact__page">
+    <div class="container map__container">
+      <div class="row">
+        <div class="col-12 map__col">
+          <div class="maps">
+            <div class="contacts-map">
+              <script src="https://api-maps.yandex.ru/2.1/?apikey=&lt;ваш API-ключ&gt;&amp;lang=ru_RU"
+                      type="text/javascript"></script>
+              <div class="contact-page__map" id="map"></div>
             </div>
           </div>
         </div>
       </div>
     </div>
   </div>
-  <div class="container" style="background-color: #F5F5F6; padding-top: 64px; padding-bottom: 64px">
+  <div class="contact__page">
+   <div class="container">
+     <div class="row">
+       <div class="col-12 col-sm-6 col-md-4 col-lg-4">
+         <div class="main__contact--item manager__block">
+           <h3>Продукция для
+             неразрушающего контроля</h3>
+           <div class="contact__manager">
+             <img class="manager__photo" src="./media/image/manager1.png" alt="photo">
+             <div class="manager__info">
+               <div class="name">Важкин Павел Максимович</div>
+               <a href="tel:+7 (843) 557-40-99" class="tel">+7 (843) 557-40-99</a>
+               <a class="email" href="mailto:p.tasma@mail.ru">p.tasma@mail.ru</a>
+             </div>
+           </div>
+           <div class="contact__manager">
+             <img class="manager__photo" src="./media/image/manager2.png" alt="photo">
+             <div class="manager__info">
+               <div class="name">Галеева Зинаида Александровна</div>
+               <a href="tel:+7 (843) 555-67-20" class="tel">+7 (843) 555-67-20</a>
+               <a class="email" href="mailto:nikolaeva@tasma.ru">nikolaeva@tasma.ru</a>
+             </div>
+           </div>
+         </div>
+       </div>
+       <div class="col-12 col-sm-6 col-md-4 col-lg-4">
+         <div class="main__contact--item manager__block">
+           <h3>Упаковочные решения</h3>
+           <div class="contact__manager">
+             <img class="manager__photo" src="./media/image/manager3.png" alt="photo">
+             <div class="manager__info">
+               <div class="name">Хайруллин Айрат Рафисович</div>
+               <a href="tel:+7 (843) 560-74-28" class="tel">+7 (843) 560-74-28</a>
+               <a class="email" href="mailto:upack@tasma.ru">upack@tasma.ru</a>
+             </div>
+           </div>
+           <div class="contact__manager">
+             <img class="manager__photo" src="./media/image/manager4.png" alt="photo">
+             <div class="manager__info">
+               <div class="name">Гаврилов Иван Анатольевич</div>
+               <a href="tel:+7 (843) 557-46-32" class="tel">+7 (843) 557-46-32</a>
+               <a class="email" href="mailto:i.gavrilov@tasma.ru">i.gavrilov@tasma.ru</a>
+             </div>
+           </div>
+         </div>
+       </div>
+       <div class="col-12 col-sm-6 col-md-4 col-lg-4">
+         <div class="main__contact--item manager__block">
+           <h3>Фотопленки и пленки
+             специального назначения</h3>
+           <div class="contact__manager">
+             <img class="manager__photo" src="./media/image/manager.png" alt="photo">
+             <div class="manager__info">
+               <div class="name">Гаврилова Валентина Владимировна</div>
+               <a href="tel:+7 (843) 557-40-67" class="tel">+7 (843) 557-40-67</a>
+               <a class="email" href="mailto:v_v_gavrilova@mail.ru">v_v_gavrilova@mail.ru</a>
+             </div>
+           </div>
+         </div>
+       </div>
+     </div>
+   </div>
+ </div>
+</div>
+<div class="contact_page page__form">
+  <div class="container" >
     <div class="row">
-      <div class="col-8 offset-2">
+      <div class="col-12 col-sm-12 col-md-12 col-lg-8 offset-lg-2 ">
         <div class="contact__form contact__page--form">
           <h3 class="contact__form--title">Есть жалобы или предложения?</h3>
           <p class="contact__form--desc">Заполните форму бла бла бла (сюда надо еще текст какой то придумать)</p>
@@ -228,14 +240,17 @@
                 <div class="count-item">999</div>
               </div>
             </div>
-            <div class="checkbox">
-              <input type="checkbox" class="option-input" id="mainCheckbox"/>
-              <label for="mainCheckbox">Я согласен с Условиями обработки персональных данных</label>
+            <!--            <div class="checkbox">-->
+            <!--              <input type="checkbox" class="option-input" id="mainCheckbox"/>-->
+            <!--              <label for="mainCheckbox">Я согласен с Условиями обработки персональных данных</label>-->
+            <!--            </div>-->
+            <div class="send__block">
+              <button type="submit" class="main__btn">
+                Отправить
+                <div class="arrow__section"><img src="./media/icon/arrow-r.svg" alt="icon"></div>
+              </button>
+              <p style="margin-bottom: 0">Нажимая "Отправить" вы соглашаетесь с политикой обработки персональных данных</p>
             </div>
-            <button type="submit" class="main__btn">
-              Отправить
-              <div class="arrow__section"><img src="./media/icon/arrow-r.svg" alt="icon"></div>
-            </button>
           </form>
         </div>
       </div>
@@ -245,12 +260,12 @@
 <footer class="main__footer">
   <div class="container">
     <div class="row">
-      <div class="col-3">
+      <div class="col-12 col-sm-6 col-md-6 col-lg-3 order-md-3 order-sm-3 order-4 order-lg-1">
         <img class="footer__logo" src="./media/icon/footerLogo.svg" alt="logo">
         <div class="footer__info">© 19ХХ-2020 АО «ТАСМА»</div>
         <div class="footer__info">Разработка сайта: Acme Inc.</div>
       </div>
-      <div class="col-3">
+      <div class="col-12 col-sm-6 col-md-6 col-lg-3 order-md-1 order-sm-1 order-1 order-lg-2">
         <ul class="footer__list">
           <li><a href="#">Продукция</a></li>
           <li><a href="#">Новости</a></li>
@@ -259,13 +274,13 @@
           <li><a href="#">Документация</a></li>
         </ul>
       </div>
-      <div class="col-3">
+      <div class="col-12 col-sm-6 col-md-6 col-lg-3 order-md-2 order-sm-2 order-2 order-lg-3">
         <h3>Контакты</h3>
         <a href="tel:8 (843) 560-71-56" class="footer__contacts">8 (843) 560-71-56</a>
         <p class="footer__contacts">Казань, ул. Восстания, 100, пом. 107</p>
         <a href="mailto:info@tasma.ru" class="footer__contacts">info@tasma.ru</a>
       </div>
-      <div class="col-3">
+      <div class="col-12 col-sm-6 col-md-6 col-lg-3 order-md-4 order-sm-4 order-3 order-lg-4">
         <button class="main__btn">Расчитать стоимость
           <div class="arrow__section"><img src="./media/icon/arrow-r.svg" alt="icon"></div>
         </button>
