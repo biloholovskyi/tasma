@@ -3,8 +3,9 @@
 <head>
   <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap-grid.css'>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600;700&display=swap"
-        rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="css/owl.carousel.min.css">
   <link rel="stylesheet" href="css/owl.theme.default.min.css">
   <link rel="stylesheet" href="css/main.css">
@@ -12,17 +13,13 @@
   <meta name="viewport"
         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Documentation</title>
+  <title>Tasma</title>
 </head>
 <body>
 <header class="main__header contact__header">
   <div class="logo__section">
     <a class="logo" href="/"><img src="./media/icon/logo/logo-blue.svg" alt="logo"></a>
     <div class="lang__block">
-<!--      <p>Руcский</p>-->
-<!--      <svg width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">-->
-<!--        <path d="M4.66667 5.6L0 0.933333L0.933333 0L4.66667 3.73333L8.4 0L9.33333 0.933333L4.66667 5.6Z" fill="black"/>-->
-<!--      </svg>-->
       <select id="lang">
         <option value="ru">Руcский</option>
         <option value="eng">English</option>
@@ -48,6 +45,7 @@
     </div>
     <button class="contact__section--button">Заказать звонок</button>
   </div>
+  <img style="filter: invert(1)" src="./media/icon/burger.svg" alt="icon" class="burger"/>
 </header>
 <div class="modal__products">
   <div class="container">
@@ -98,140 +96,141 @@
     </div>
   </div>
 </div>
-<div class="document__page">
+<div class="purchases__page">
   <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="aside__title">Закупки</div>
+      </div>
+    </div>
     <div class="row">
       <div class="col-3">
         <div class="aside__catalog--content">
           <ul class="catalog__aside">
-            <li class="aside__title">Документация</li>
-            <li class="aside__item active"><a href="#">Вся документация</a></li>
-            <li class="aside__item"><a href="#">Сертификаты</a></li>
-            <li class="aside__item"><a href="#">ООО «НПП «Тасма»</a></li>
-            <li class="aside__item"><a href="#">Упаковочная продукция</a></li>
-            <li class="aside__item"><a href="#">Радиографические технические пленки</a></li>
+            <li class="aside__item active"><a href="#">Закупки сырья</a></li>
+            <li class="aside__item"><a href="#">Тендеры на оказание услуг</a></li>
           </ul>
         </div>
       </div>
       <div class="col-9">
-        <div class="document__content">
-          <div class="document__item">
-            <div class="image__block" style="background-image: url('media/image/document.png')">
-              <div class="hover__block">
-                <img src="./media/icon/down.svg" alt="icon">
-                <img src="./media/icon/full.svg" alt="icon">
-              </div>
+        <div class="pur__title">Потребности в сырье</div>
+        <div class="pur__table">
+            <div class="table__caption">
+              <div class="num">№</div>
+              <div class="name">Наименование сырья</div>
+              <div class="m">Единица измерения</div>
+              <div class="qualification">Квалификация</div>
+              <div class="gost">ГОСТ, ТУ</div>
+              <div class="year">Потребность в год</div>
             </div>
-            <div class="name">Сертификат на "Пленка РТ-1"</div>
-            <div class="format__block">
-              <div class="format">pdf</div>
-              <div class="dot">•</div>
-              <div class="date">21.06.2020</div>
+          <div class="table__body">
+            <div class="table__item">
+              <div class="num">1</div>
+              <div class="name">Сульфонополистирол, полистиролсульфокислый натрий, PSS</div>
+              <div class="m">кг</div>
+              <div class="qualification">Х.Ч.</div>
+              <div class="gost">25704-18-1</div>
+              <div class="year">150,00</div>
             </div>
-          </div>
-          <div class="document__item">
-            <div class="image__block" style="background-image: url('media/image/document.png')">
-              <div class="hover__block">
-                <img src="./media/icon/down.svg" alt="icon">
-                <img src="./media/icon/full.svg" alt="icon">
-              </div>
+            <div class="table__item">
+              <div class="num">2</div>
+              <div class="name">Основа лавсановая</div>
+              <div class="m">кв. м.</div>
+              <div class="qualification">25, 100, 175 мкм</div>
+              <div class="gost">9084-06-4</div>
+              <div class="year">100000,00</div>
             </div>
-            <div class="name">Сертификат на "Пленка РТ-1"</div>
-            <div class="format__block">
-              <div class="format">pdf</div>
-              <div class="dot">•</div>
-              <div class="date">21.06.2020</div>
+            <div class="table__item">
+              <div class="num">3</div>
+              <div class="name">Желатин </div>
+              <div class="m">кв. м.</div>
+              <div class="qualification">Фотографический</div>
+              <div class="gost">900-70-8</div>
+              <div class="year">10000,00</div>
             </div>
-          </div>
-          <div class="document__item">
-            <div class="image__block" style="background-image: url('media/image/document.png')">
-              <div class="hover__block">
-                <img src="./media/icon/down.svg" alt="icon">
-                <img src="./media/icon/full.svg" alt="icon">
-              </div>
+            <div class="table__item">
+              <div class="num">4</div>
+              <div class="name">Серебро азотнокислое</div>
+              <div class="m">кг</div>
+              <div class="qualification">Х.Ч.</div>
+              <div class="gost">ГОСТ 1277-75</div>
+              <div class="year">5000,00</div>
             </div>
-            <div class="name">Сертификат на "Пленка РТ-1"</div>
-            <div class="format__block">
-              <div class="format">pdf</div>
-              <div class="dot">•</div>
-              <div class="date">21.06.2020</div>
-            </div>
-          </div>
-          <div class="document__item">
-            <div class="image__block" style="background-image: url('media/image/document.png')">
-              <div class="hover__block">
-                <img src="./media/icon/down.svg" alt="icon">
-                <img src="./media/icon/full.svg" alt="icon">
-              </div>
-            </div>
-            <div class="name">Сертификат на "Пленка РТ-1"</div>
-            <div class="format__block">
-              <div class="format">pdf</div>
-              <div class="dot">•</div>
-              <div class="date">21.06.2020</div>
+            <div class="table__item">
+              <div class="num">5</div>
+              <div class="name">Диспергатор НФ, смесь полиметиленнафталинсульфантов
+                натрия</div>
+              <div class="m">кг</div>
+              <div class="qualification">Ч.PNS-Na, sodium poly-naphthalene sulfonate, Naphthalene Sulfonate Formaldehyde, SNF, NSF, PNS.</div>
+              <div class="gost">04.06.9084	</div>
+              <div class="year">90,00</div>
             </div>
           </div>
-          <div class="document__item">
-            <div class="image__block" style="background-image: url('media/image/document.png')">
-              <div class="hover__block">
-                <img src="./media/icon/down.svg" alt="icon">
-                <img src="./media/icon/full.svg" alt="icon">
-              </div>
-            </div>
-            <div class="name">Сертификат на "Пленка РТ-1"</div>
-            <div class="format__block">
-              <div class="format">pdf</div>
-              <div class="dot">•</div>
-              <div class="date">21.06.2020</div>
-            </div>
-          </div>
-          <div class="document__item">
-            <div class="image__block" style="background-image: url('media/image/document.png')">
-              <div class="hover__block">
-                <img src="./media/icon/down.svg" alt="icon">
-                <img src="./media/icon/full.svg" alt="icon">
-              </div>
-            </div>
-            <div class="name">Сертификат на "Пленка РТ-1"</div>
-            <div class="format__block">
-              <div class="format">pdf</div>
-              <div class="dot">•</div>
-              <div class="date">21.06.2020</div>
-            </div>
-          </div>
+
         </div>
-        <button type="submit" class="main__btn catalog__btn">
-          Показать еще
-          <div class="arrow__section"><img src="./media/image/chevron--down.svg" alt="icon"></div>
-        </button>
       </div>
+    </div>
+  </div>
+</div>
+<div class="purchases__contact">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="title">Контакты</div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <div class="desc">По всем вопросам поставки сырья обращайтесь в отдел снабжения ООО «НПП «Тасма».</div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-3">
+        <div class="info">
+          <h4>Телефон</h4>
+          <a href="tel:(843) 557-48-32">(843) 557-48-32</a>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="info">
+          <h4>Факс</h4>
+          <a href="tel:(843) 557-46-44">(843) 557-46-44</a>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="info">
+          <h4>E-mail</h4>
+          <a href="mailto:snab@tasma.ru">snab@tasma.ru</a>
+        </div>
+      </div>
+      <div class="col-3"></div>
     </div>
   </div>
 </div>
 <footer class="main__footer">
   <div class="container">
     <div class="row">
-      <div class="col-3">
+      <div class="col-12 col-sm-6 col-md-6 col-lg-3 order-md-3 order-sm-3 order-4 order-lg-1">
         <img class="footer__logo" src="./media/icon/footerLogo.svg" alt="logo">
         <div class="footer__info">© 19ХХ-2020 АО «ТАСМА»</div>
         <div class="footer__info">Разработка сайта: Acme Inc.</div>
       </div>
-      <div class="col-3">
+      <div class="col-12 col-sm-6 col-md-6 col-lg-3 order-md-1 order-sm-1 order-1 order-lg-2">
         <ul class="footer__list">
           <li><a href="#">Продукция</a></li>
           <li><a href="#">Новости</a></li>
           <li><a href="/about.html">О компании</a></li>
-          <li><a href="/purchases.html">Закупки</a></li>
+          <li><a href="#">Закупки</a></li>
           <li><a href="/documents.html">Документация</a></li>
         </ul>
       </div>
-      <div class="col-3">
+      <div class="col-12 col-sm-6 col-md-6 col-lg-3 order-md-2 order-sm-2 order-2 order-lg-3">
         <h3>Контакты</h3>
         <a href="tel:8 (843) 560-71-56" class="footer__contacts">8 (843) 560-71-56</a>
         <p class="footer__contacts">Казань, ул. Восстания, 100, пом. 107</p>
         <a href="mailto:info@tasma.ru" class="footer__contacts">info@tasma.ru</a>
       </div>
-      <div class="col-3">
+      <div class="col-12 col-sm-6 col-md-6 col-lg-3 order-md-4 order-sm-4 order-3 order-lg-4">
         <button class="main__btn">Расчитать стоимость
           <div class="arrow__section"><img src="./media/icon/arrow-r.svg" alt="icon"></div>
         </button>
@@ -242,8 +241,11 @@
   </div>
 </footer>
 </body>
+
 <script src="https://code.jquery.com/jquery-3.3.1.min.js"
         integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 <script src="buildjs/owl.carousel.min.js"></script>
 <script src="buildjs/index.js"></script>
+
+</body>
 </html>

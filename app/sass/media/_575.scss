@@ -287,4 +287,118 @@
       }
     }
   }
+  .catalog__item-page {
+    padding: 28px 0;
+    .catalog__content {
+      .btn__back {
+        margin-bottom: 17px;
+      }
+     .catalog__content-title {
+       font-size: 22px;
+       line-height: 30px;
+       margin-bottom: 16px;
+     }
+      .accordion {
+        display: none;
+      }
+    }
+    .catalog__content-images  {
+      margin-bottom: 24px;
+      overflow: auto;
+      img {
+        width: 128px;
+        height: 128px;
+        margin-right: 16px;
+      }
+      &::-webkit-scrollbar {
+        display: none;
+      }
+    }
+    .catalog__content-desc,
+    .catalog__content-benefits{
+      padding-bottom: 48px;
+      margin-bottom: 48px;
+      .title {
+        margin-bottom: 8px;
+      }
+      .desc {
+        font-size: 14px;
+        line-height: 20px;
+        margin: 0;
+      }
+      .benefits-item {
+        margin-bottom: 24px;
+      }
+    }
+    .catalog__content-info {
+      .documents {
+        .document__item {
+          min-width: 136px;
+          max-width: 192px;
+          .document__title,
+          .document__desc {
+            display: none;
+          }
+          .document__image {
+            margin-bottom: 0;
+          }
+        }
+      }
+      .temperature__section {
+        flex-direction: column;
+        margin-bottom: 24px;
+         .temperature__item {
+          margin-right: 0;
+          width: 100%;
+        }
+        & .temperature__item:first-child {
+          margin-bottom: 24px;
+        }
+      }
+    }
+  }
+  .single__page--form {
+    padding-top: 48px;
+    border-top: 1px solid rgba(12, 16, 23, 0.1);
+    margin-top: 48px;
+    .contact__form--title {
+      font-size: 22px;
+      line-height: 30px;
+      margin-bottom: 24px;
+    }
+    .contact__form--desc {
+      margin: 0 0 24px;
+    }
+    .main__form {
+      .double {
+        flex-direction: column;
+        .main__form--input {
+          margin-right: 0!important;
+          margin-bottom: 24px;
+        }
+      }
+      .count {
+        display: none;
+      }
+    }
+  }
+  .order {
+    padding: 48px 0;
+    .order__wrap {
+      padding: 0;
+      h3 {
+        font-size: 22px;
+        line-height: 30px;
+        margin-bottom: 24px;
+      }
+      p {
+        margin: 0;
+        margin-bottom: 24px;
+        color: #6D7074;
+      }
+    }
+    .order__img {
+      display: none;
+    }
+  }
 }

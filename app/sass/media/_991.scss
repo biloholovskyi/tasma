@@ -143,4 +143,30 @@
       }
     }
   }
+  .catalog__item-page {
+    .catalog__content {
+      padding-right: 0;
+    }
+    .catalog__content-images  {
+     justify-content: flex-start;
+    }
+    .catalog__content-info {
+      .documents {
+        justify-content: flex-start;
+      }
+      .temperature__section {
+        justify-content: flex-start;
+        & .temperature__item {
+          margin-right: 50px;
+        }
+        & .temperature__item:last-child {
+          margin-right: 0;
+        }
+      }
+    }
+  }
+  .single__page--form {
+    padding-left: 0!important;
+    border-left: none!important;
+  }
 }

@@ -22,4 +22,28 @@
       font-size: 14px;
     }
   }
+  .catalog__item-page {
+    .catalog__content-images img {
+      max-width: 140px;
+      height: 140px;
+    }
+    .catalog__content-info {
+      .documents {
+        .document__item {
+          min-width: 230px;
+          max-width: 230px;
+        }
+      }
+    }
+  }
+  .single__page--form {
+    padding-left: 35px!important;
+    .main__form {
+      .send__block {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+      }
+    }
+  }
 }

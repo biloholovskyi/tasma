@@ -2,6 +2,7 @@ import {inputForm} from "./input";
 import './countInput';
 import './slider';
 import './hover';
+import './select';
 
 $(document).ready(() => {
   $('input, textarea').on('input', inputForm);

@@ -18,10 +18,14 @@
   <div class="logo__section">
     <a class="logo" href="/"><img src="./media/icon/logo/logo-blue.svg" alt="logo"></a>
     <div class="lang__block">
-      <p>Руcский</p>
-      <svg width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path d="M4.66667 5.6L0 0.933333L0.933333 0L4.66667 3.73333L8.4 0L9.33333 0.933333L4.66667 5.6Z" fill="black"/>
-      </svg>
+<!--      <p>Руcский</p>-->
+<!--      <svg width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">-->
+<!--        <path d="M4.66667 5.6L0 0.933333L0.933333 0L4.66667 3.73333L8.4 0L9.33333 0.933333L4.66667 5.6Z" fill="black"/>-->
+<!--      </svg>-->
+      <select id="lang">
+        <option value="ru">Руcский</option>
+        <option value="eng">English</option>
+      </select>
     </div>
   </div>
   <nav class="navigation">
@@ -43,6 +47,7 @@
     </div>
     <button class="contact__section--button">Заказать звонок</button>
   </div>
+  <img style="filter: invert(1)" src="./media/icon/burger.svg" alt="icon" class="burger" />
 </header>
 <div class="modal__products modal__single">
   <div class="container">
@@ -96,7 +101,7 @@
 <div class="catalog__item-page">
   <div class="container">
     <div class="row">
-      <div class="col-6">
+      <div class="col-12 col-sm-12 col-md-12 col-lg-6">
         <div class="catalog__content">
           <a href="/catalog.html" class="btn__back">Назад
             <img src="./media/icon/sliderArrow.svg" alt="image">
@@ -258,7 +263,7 @@
           </div>
         </div>
       </div>
-      <div class="col-6">
+      <div class="col-12 col-sm-12 col-md-12 col-lg-6">
         <div class="contact__form single__page--form">
           <h3 class="contact__form--title">Есть жалобы или предложения?</h3>
           <p class="contact__form--desc">Заполните форму бла бла бла (сюда надо еще текст какой то придумать)</p>
@@ -282,14 +287,17 @@
                 <div class="count-item">999</div>
               </div>
             </div>
-            <div class="checkbox">
-              <input type="checkbox" class="option-input" id="mainCheckbox"/>
-              <label for="mainCheckbox">Я согласен с Условиями обработки персональных данных</label>
+<!--            <div class="checkbox">-->
+<!--              <input type="checkbox" class="option-input" id="mainCheckbox"/>-->
+<!--              <label for="mainCheckbox">Я согласен с Условиями обработки персональных данных</label>-->
+<!--            </div>-->
+            <div class="send__block">
+              <button type="submit" class="main__btn">
+                Отправить
+                <div class="arrow__section"><img src="./media/icon/arrow-r.svg" alt="icon"></div>
+              </button>
+              <p style="margin-bottom: 0">Нажимая "Отправить" вы соглашаетесь с политикой обработки персональных данных</p>
             </div>
-            <button type="submit" class="main__btn">
-              Отправить
-              <div class="arrow__section"><img src="./media/icon/arrow-r.svg" alt="icon"></div>
-            </button>
           </form>
         </div>
       </div>
@@ -299,14 +307,14 @@
 <div class="order">
   <div class="container">
     <div class="row">
-      <div class="col-6">
+      <div class="col-12 col-sm-12 col-md-6 col-lg-6">
         <div class="order__wrap">
           <h3>Разработка на заказ</h3>
           <p>Также в дополнение к широкой линейке пеногасителей мы можем предложить услугу разработки пеногасителей для конкретных нужд и задач клиента.</p>
-          <button class="contact__btn">Связаться с нами</button>
+          <button class="contact__btn">рассчет стоимости</button>
         </div>
       </div>
-      <div class="col-6">
+      <div class="col-12 col-sm-12 col-md-6 col-lg-6">
         <div class="order__img">
           <img src="./media/image/catalog.png" alt="image">
         </div>
@@ -314,30 +322,30 @@
     </div>
   </div>
 </div>
-<footer class="main__footer">
+<footer class="main__footer single__footer">
   <div class="container">
     <div class="row">
-      <div class="col-3">
+      <div class="col-12 col-sm-6 col-md-6 col-lg-3 order-md-3 order-sm-3 order-4 order-lg-1">
         <img class="footer__logo" src="./media/icon/footerLogo.svg" alt="logo">
         <div class="footer__info">© 19ХХ-2020 АО «ТАСМА»</div>
         <div class="footer__info">Разработка сайта: Acme Inc.</div>
       </div>
-      <div class="col-3">
+      <div class="col-12 col-sm-6 col-md-6 col-lg-3 order-md-1 order-sm-1 order-1 order-lg-2">
         <ul class="footer__list">
           <li><a href="#">Продукция</a></li>
           <li><a href="#">Новости</a></li>
           <li><a href="/about.html">О компании</a></li>
-          <li><a href="#">Закупки</a></li>
-          <li><a href="#">Документация</a></li>
+          <li><a href="/purchases.html">Закупки</a></li>
+          <li><a href="/documents.html">Документация</a></li>
         </ul>
       </div>
-      <div class="col-3">
+      <div class="col-12 col-sm-6 col-md-6 col-lg-3 order-md-2 order-sm-2 order-2 order-lg-3">
         <h3>Контакты</h3>
         <a href="tel:8 (843) 560-71-56" class="footer__contacts">8 (843) 560-71-56</a>
         <p class="footer__contacts">Казань, ул. Восстания, 100, пом. 107</p>
         <a href="mailto:info@tasma.ru" class="footer__contacts">info@tasma.ru</a>
       </div>
-      <div class="col-3">
+      <div class="col-12 col-sm-6 col-md-6 col-lg-3 order-md-4 order-sm-4 order-3 order-lg-4">
         <button class="main__btn">Расчитать стоимость
           <div class="arrow__section"><img src="./media/icon/arrow-r.svg" alt="icon"></div>
         </button>
