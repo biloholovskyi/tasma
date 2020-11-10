@@ -93,12 +93,19 @@
     }
   }
   .hidden__slider {
+    display: block;
     .owl-catalog {
       .owl-nav {
         display: flex;
         justify-content: space-between;
         bottom: -38px;
         position: absolute;
+        .owl-prev,
+        .owl-next {
+          span {
+            font-size: 35px;
+          }
+        }
       }
       .owl-dots {
         position: absolute;

@@ -8,7 +8,7 @@
   justify-content: space-between;
   align-items: center;
   z-index: 20;
-
+  //background: #fff;
   .logo__section {
     display: flex;
     align-items: center;
@@ -214,7 +214,7 @@
 // header on contact page
 .contact__header {
   position: relative;
-
+  background-color: #fff;
   .logo__section {
     .lang__block {
       p {

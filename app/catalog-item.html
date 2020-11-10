@@ -49,6 +49,23 @@
   </div>
   <img style="filter: invert(1)" src="./media/icon/burger.svg" alt="icon" class="burger" />
 </header>
+<div class="sticky__menu--mobile">
+  <div class="mobile__item">
+    <a href="#">Описание</a>
+    <img src="./media/icon/arrow-down-b.svg" alt="icon">
+  </div>
+  <div class="mobile__hidden">
+    <a class="anchors" href="#desc">Описание</a>
+    <a class="anchors" href="#benefits">Преимущества</a>
+    <a class="anchors" href="#main">Основа</a>
+    <a class="anchors" href="#save">Хранение</a>
+    <a class="anchors" href="#obr">Обработка</a>
+    <a class="anchors" href="#anh6">Рекомендуемые растворы для ручной обработки</a>
+    <a class="anchors" href="#anh7">Рентгеносенситометрические характеристики при выпуске</a>
+    <a class="anchors" href="#save">Обработка</a>
+    <a class="anchors" href="#anh8">Документы на продукцию</a>
+  </div>
+</div>
 <div class="modal__products modal__single">
   <div class="container">
     <div class="row">
@@ -113,12 +130,12 @@
             <img src="./media/image/catalog.png" alt="image">
             <img src="./media/image/catalog.png" alt="image">
           </div>
-          <div class="catalog__content-desc">
-            <h3 class="title">Описание</h3>
+          <div  class="catalog__content-desc">
+            <h3 id="desc" class="title">Описание</h3>
             <p class="desc">Высокочувствительная радиографическая техническая пленка РТ-1, чувствительность не менее 25 обратных рентген, предназначена для радиографического контроля труб большого диаметра магистральных нефтегазопроводов, деталей и узлов, литых изделий большой толщины, железобетонных и тяжелых конструкций путем просвечивания с использованием рентгеновского, гамма-излучений и тормозного излучения ускорителей электронов.</p>
           </div>
-          <div class="catalog__content-benefits">
-            <h3 class="title">Преимущества</h3>
+          <div  class="catalog__content-benefits">
+            <h3 id="benefits" class="title">Преимущества</h3>
             <div class="benefits-item">
               <div class="benefits-img">
                 <img src="./media/icon/benefits.svg" alt="icon">
@@ -146,12 +163,12 @@
             </div>
           </div>
           <div class="catalog__content-main info-5">
-            <div class="items__title">Основа</div>
+            <div id="main" class="items__title">Основа</div>
             <h3>997 ± 10 <span style="font-size: 20px">мкм</span></h3>
             <p class="items__desc">Полиэтилентерефталатная основа, прокрашенная в массе в голубой цвет толщиной 175±10 мкм по ТУ 6-41-1576-93. </p>
           </div>
           <div class="catalog__content-info">
-            <div class="items__title">Хранение</div>
+            <div id="save" class="items__title">Хранение</div>
             <div class="temperature__section">
               <div class="temperature__item">
                 <h4>Температура</h4>
@@ -165,12 +182,12 @@
             <div class="items__desc">Неэкспонированная пленка должна храниться в потребительской таре на стеллажах в вентилируемом помещении при температуре от 14°С до 22°С и относительной влажности воздуха от 50% до 70%, куда не должны проникать вредные для пленки газы. Не допускается хранение пленки в помещениях, где находятся радиоактивные вещества и светящиеся составы постоянного действия.</div>
           </div>
           <div class="catalog__content-info">
-            <div class="items__title">Обработка</div>
+            <div id="obr" class="items__title">Обработка</div>
             <div class="items__desc">Пленка РТ-1 предназначена для ручной обработки.
               Вскрытие упаковки и химико-фотографическая обработка пленки должны проводиться при неактиничном освещении, создаваемом лабораторным фонарем с электролампой 15-25 Вт, экранированной защитным темно-красным светофильтром № 107 по ТУ 6-43-00205133-03-91.</div>
           </div>
           <div class="catalog__content-info info-2">
-            <div class="items__title">Рекомендуемые растворы для ручной обработки:</div>
+            <div id="anh6" class="items__title">Рекомендуемые растворы для ручной обработки:</div>
             <div style="margin-bottom: 24px" class="items__desc">Проявитель «Рентген-2» и фиксаж БКФ-2; - в растворах химических реактивов «ТРТ-301», «Рентген-2Т».</div>
             <div class="temperature__section">
               <div class="temperature__item">
@@ -186,7 +203,7 @@
             </div>
           </div>
           <div class="catalog__content-info info-3">
-            <div class="items__title">Рентгеносенситометрические характеристики при выпуске</div>
+            <div id="anh7" class="items__title">Рентгеносенситометрические характеристики при выпуске</div>
             <div class="temperature__section">
               <div class="temperature__item">
                 <h4>Чувствительность, S0,85+Do р-1</h4>
@@ -222,7 +239,7 @@
             </ul>
           </div>
           <div class="catalog__content-info">
-            <div class="items__title">Документы на продукцию</div>
+            <div id="anh8" class="items__title">Документы на продукцию</div>
             <div class="documents">
               <div class="document__item">
                 <img class="document__image" src="./media/image/document.png" alt="image">
@@ -296,7 +313,7 @@
                 Отправить
                 <div class="arrow__section"><img src="./media/icon/arrow-r.svg" alt="icon"></div>
               </button>
-              <p style="margin-bottom: 0">Нажимая "Отправить" вы соглашаетесь с политикой обработки персональных данных</p>
+              <p style="margin: 0">Нажимая "Отправить" вы соглашаетесь с политикой обработки персональных данных</p>
             </div>
           </form>
         </div>

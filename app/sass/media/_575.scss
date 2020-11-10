@@ -288,7 +288,7 @@
     }
   }
   .catalog__item-page {
-    padding: 28px 0;
+    padding: 130px 0 28px;
     .catalog__content {
       .btn__back {
         margin-bottom: 17px;
@@ -400,5 +400,18 @@
     .order__img {
       display: none;
     }
+  }
+  .single__header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+  }
+  .sticky__menu--mobile {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    top: 68px;
+    left: 0;
   }
 }

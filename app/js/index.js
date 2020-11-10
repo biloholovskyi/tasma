@@ -6,7 +6,6 @@ import './select';
 
 $(document).ready(() => {
   $('input, textarea').on('input', inputForm);
-
   // modal on vacancies page
   $('.vacancies').on('click', function (){
       $('.vacancies__modal--overlay').addClass('active');
@@ -28,7 +27,25 @@ $(document).ready(() => {
     $('.modal__products').toggleClass('show');
     $('body').toggleClass('active');
   });
-
+// menu on single item page
+  $('.sticky__menu--mobile').on('click', function (){
+    $(this).children('.mobile__hidden').toggleClass('active');
+    $(this).children('.mobile__item').find('img').toggleClass('active');
+  });
+  $('.sticky__menu--mobile .mobile__hidden a').on('click', function (){
+      $(this).parent().hide();
+      $(this).addClass('active');
+      $(this).siblings().removeClass('active');
+      const text = $(this).html();
+      $('.sticky__menu--mobile .mobile__item a').html(text);
+  });
+  // anchors
+  $('.anchors').on('click', function (e){
+    e.preventDefault();
+    let id = $(this).attr('href'),
+      top = $(id).offset().top - 120;
+    $('body,html').animate({scrollTop: top}, 800);
+  });
 });
 
 $(document).on('click', function (e){
