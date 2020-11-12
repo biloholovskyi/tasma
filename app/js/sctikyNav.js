@@ -12,7 +12,7 @@ $(document).ready(function(){
       obj.css({
         marginTop: 0,
         position: 'fixed',
-        top: 0,
+        top: 50,
 
       });
     }
