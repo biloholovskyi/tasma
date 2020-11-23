@@ -174,9 +174,9 @@
     x[n].style.display = "block";
 
     if (n == 0) {
-      document.getElementById("prevBtn").style.display = "none";
+      document.getElementById("prevBtn").style.visibility = "hidden";
     } else {
-      document.getElementById("prevBtn").style.display = "flex";
+      document.getElementById("prevBtn").style.visibility = "visible";
     }
     if (n == (x.length - 1)) {
       const finish = document.getElementById("nextBtn");

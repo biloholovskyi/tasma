@@ -82,6 +82,14 @@
       font-size: 25px;
       line-height: 40px;
     }
+    &:after {
+      width: 550px;
+      height: 550px;
+    }
+    &:before {
+      width: 550px;
+      height: 550px;
+    }
   }
   .footer__list {
     margin-bottom: 50px;

@@ -143,6 +143,9 @@
           }
         }
       }
+      & li:first-child {
+        display: flex;
+      }
       .open__modal {
         a {
           display: flex;

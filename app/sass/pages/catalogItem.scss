@@ -350,6 +350,9 @@
     border-left: 1px solid rgba(12, 16, 23, 0.1);
     position: sticky;
     top: 0;
+    //.contact__form--title {
+    //  text-transform: none;
+    //}
     .main__form {
       .send__block {
         button {
@@ -399,7 +402,7 @@
       line-height: 50px;
       text-transform: uppercase;
       color: #0C1017;
-      margin-bottom: 24px;
+      margin-bottom: 40px;
     }
     p {
       font-style: normal;
@@ -420,7 +423,7 @@
       padding: 14px 24px;
       background-color:  #4589FF;
       border: none;
-      max-width: 210px;
+      max-width: 240px;
     }
   }
   .order__img {

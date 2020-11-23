@@ -29,6 +29,15 @@
     .news__button {
       margin-bottom: 48px;
     }
+    &:after {
+      width: 450px;
+      height: 450px;
+    }
+
+    &:before {
+      width: 450px;
+      height: 450px;
+    }
   }
   .page__form {
     padding: 0;

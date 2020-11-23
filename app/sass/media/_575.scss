@@ -113,6 +113,18 @@
     .news__button {
       width: 100%;
     }
+    &:after {
+      top: -170px;
+      right: -34%;
+      width: 389.5px;
+      height: 389.5px;
+    }
+    &:before {
+      left: -48%;
+      bottom: -100px;
+      width: 389.89px;
+      height: 389.88px;
+    }
   }
   .footer__list {
     padding-bottom: 20px;
